@@ -1,5 +1,12 @@
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+    // Mockito 기본
+    testImplementation 'org.mockito:mockito-core:5.2.0'
+    // Mockito JUnit 5 연동
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.2.0'
 }
 
 bootJar.enabled = false

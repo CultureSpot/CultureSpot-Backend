@@ -1,0 +1,12 @@
+storage:
+  type: s3
+
+spring:
+  aws:
+    region:
+      static: "ap-northeast-2"
+    credentials:
+      access-key: ""
+      secret-key: ""
+    s3:
+      bucket-name: culturespot-dev

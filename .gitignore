@@ -19,9 +19,20 @@ bin/
 
 ### IntelliJ IDEA ###
 CultureSpot-Api/src/main/resources/application.yml
+
 CultureSpot-Batch/src/main/resources/application.yml
+
 CultureSpot-Common/src/main/resources/application.yml
+
 CultureSpot-Domain/src/main/resources/application.yml
+CultureSpot-Domain/src/main/resources/application-dev.yml
+CultureSpot-Domain/src/main/resources/application-local.yml
+CultureSpot-Domain/src/main/resources/application-prod.yml
+CultureSpot-Domain/src/main/resources/application-test.yml
+CultureSpot-Domain/src/main/resources/key
+### Querydsl generated ###
+CultureSpot-Domain/src/main/generated
+
 .idea
 *.iws
 *.iml

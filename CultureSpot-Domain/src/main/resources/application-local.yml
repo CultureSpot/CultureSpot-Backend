@@ -1,0 +1,16 @@
+storage:
+  type: minio
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/culturespot_dev?useSSL=false&serverTimezone=Asia/Seoul
+    username: root
+    password: password
+
+  minio:
+    endpoint: http://127.0.0.1:9000
+    bucket-name: culturespot-local
+    credentials:
+      access-key: minioadmin
+      secret-key: minioadmin
